@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4;">
+    <style>
+        .nav-btn {
+            margin: 0 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background: #444;
+            border: none;
+            border-radius: 4px;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .nav-btn:hover {
+            background: #222;
+        }
+    </style>
+    <header style="background: #333; color: #fff; padding: 20px 0; text-align: center;">
+        <h1>Contact Sayan</h1>
+        <nav>
+            <a href="home.html" class="nav-btn">Home</a>
+        </nav>
+    </header>
+    <main style="max-width: 700px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <h2>Contact Details</h2>
+        <ul>
+            <li>Email: <a href="mailto:25f2006355@ds.study.iitm.ac.in">25f2006355@ds.study.iitm.ac.in</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/22sayanshil" target="_blank">linkedin.com/in/22sayanshil</a></li>
+            <li>GitHub: <a href="https://github.com/Sayan-CtrlZ" target="_blank">github.com/Sayan-CtrlZ</a></li>
+        </ul>
+        <h2>Contact Me</h2>
+        <form action="mailto:25f2006355@ds.study.iitm.ac.in" method="POST" enctype="text/plain">
+            <label>Name:<br><input type="text" name="name" required></label><br><br>
+            <label>Email:<br><input type="email" name="email" required></label><br><br>
+            <label>Message:<br><textarea name="message" rows="4" required></textarea></label><br><br>
+            <button type="submit" class="nav-btn">Send</button>
+        </form>
+    </main>
+</body>
+</html>
