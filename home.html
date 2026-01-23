@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayan's Portfolio</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4;">
+    <header style="background: #333; color: #fff; padding: 20px 0; text-align: center;">
+        <h1>Sayan's Portfolio</h1>
+        <nav>
+            <button onclick="showSection('about')" style="margin: 0 10px; padding: 10px 20px;">About</button>
+            <button type="button" style="margin: 0 10px; padding: 10px 20px;">Skills</button>
+            <button type="button" style="margin: 0 10px; padding: 10px 20px;">Contact</button>
+        </nav>
+    </header>
+    <main style="max-width: 700px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <section id="about" style="display: block;">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is Sayan, and I am currently a first-year student at the prestigious Indian Institute of Technology Madras (IITM), pursuing a Bachelor of Science in Data Science and Applications. My academic journey is driven by a deep curiosity for data, technology, and their transformative impact on the world.
+            </p>
+            <p>
+                As a student at IITM, I am immersed in a rigorous curriculum that blends mathematics, statistics, computer science, and real-world problem solving. I am passionate about exploring how data can be harnessed to uncover insights, drive innovation, and solve complex challenges across various domains. My coursework and projects have equipped me with a strong foundation in programming, data analysis, and critical thinking.
+            </p>
+            <p>
+                Beyond academics, I am an enthusiastic learner who enjoys collaborating with peers, participating in hackathons, and staying updated with the latest advancements in technology. I am particularly interested in the fields of artificial intelligence, machine learning, and data-driven decision making. My goal is to leverage my skills and knowledge to contribute meaningfully to the tech community and make a positive impact on society.
+            </p>
+            <p>
+                Thank you for visiting my portfolio! I look forward to connecting with like-minded individuals, mentors, and organizations as I continue my journey in the world of data science and technology.
+            </p>
+        </section>
+    </main>
+    <script>
+        function showSection(section) {
+            if(section === 'about') {
+                document.getElementById('about').style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
