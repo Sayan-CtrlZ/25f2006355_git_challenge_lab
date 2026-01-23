@@ -4,7 +4,7 @@
 Welcome to my personal portfolio website! This site showcases my background, skills, projects, and contact information. Built with HTML, CSS, and a clean, modern design, it is fully navigable and ready for deployment on GitHub Pages.
 
 ## 🌐 Live Demo
-You can view the portfolio live (after deployment) at: `[https://sayan-ctrlz.github.io/25f2006355_git_challenge_lab/](https://sayan-ctrlz.github.io/25f2006355_git_challenge_lab/)`
+You can view the portfolio live (after deployment) at: [https://sayan-ctrlz.github.io/25f2006355_git_challenge_lab/](https://sayan-ctrlz.github.io/25f2006355_git_challenge_lab/)
 
 ## 📄 Pages & Features
 - **Home (index.html):** Introduction and About Me section
